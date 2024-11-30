@@ -11,7 +11,9 @@
     "preview": "vite preview",
     "test": "vitest --watch",
     "test:ui": "vitest --ui",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "cypress open",
+    "test:e2e.run": "cypress run"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -21,10 +23,12 @@
     "@eslint/js": "^9.9.0",
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^16.0.0",
+    "@types/cypress": "^1.1.6",
     "@types/node": "^22.4.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "cypress": "^13.16.0",
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
